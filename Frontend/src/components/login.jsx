@@ -34,7 +34,7 @@ const Login = () => {
         setLoading(true);
 
         try {
-            const response = await axios.post('http://localhost:5500/api/login', {
+            const response = await axios.post('https://seleksi2-api.vercel.app/api/login', {
                 email,
                 password,
             });
